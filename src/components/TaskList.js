@@ -1,11 +1,13 @@
 import React from "react";
 
-function TaskList() {
+function Task() {
   return (
-    <div className="tasks">
-      {/* display a list of tasks using Task component */}
+    <div className="task">
+      <div className="label">CATEGORY HERE</div>
+      <div className="text">TEXT HERE</div>
+      <button className="delete">X</button>
     </div>
   );
 }
 
-export default TaskList;
+export default Task;
